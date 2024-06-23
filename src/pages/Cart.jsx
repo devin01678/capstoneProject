@@ -34,6 +34,7 @@ export default function Cart() {
               src={cartItem.image}
               alt={cartItem.title}
               className="cart-item-image"
+              style={{ width: "300px" }}
             />
             <div className="cart-item-details">
               <span className="cart-item-price">Price: ${cartItem.price}</span>

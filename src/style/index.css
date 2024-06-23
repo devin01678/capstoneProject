@@ -363,3 +363,32 @@ button {
   display: block;
   font-size: medium;
 }
+
+.filter-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filter-container input,
+.filter-container select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-container .price-container {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-container input[type="number"] {
+  width: 100px;
+}
+
+.filter-container .price-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
